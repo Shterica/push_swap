@@ -9,7 +9,9 @@ HEADERS		= -I ./incl
 H			= incl/push_swap.h
 
 SRCS_FILES	= push_swap.c \
-				utils.c
+				utils.c \
+				stack_ops.c \
+				stack_utils.c 
 
 OBJS_FILES	= $(SRCS_FILES:.c=.o)
 
